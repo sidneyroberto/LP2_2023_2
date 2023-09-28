@@ -2,7 +2,7 @@ import { join } from 'path'
 import { Contact } from '../models/Contact'
 import { readFileSync } from 'fs'
 
-export class ContactDAO {
+export abstract class ContactDAO {
   protected _contacts: Contact[]
   protected _strContent: string
 
@@ -12,8 +12,15 @@ export class ContactDAO {
     this._contacts = []
   }
 
-  findContactByEmail(email: string): Contact | undefined {
+  abstract flush(): void
+
+  findByEmail(email: string): Contact | undefined {
     const contact = this._contacts.find((c) => c.email === email)
     return contact
+  }
+
+  save(contact: Contact) {
+    this._contacts.push(contact)
+    this.flush()
   }
 }
