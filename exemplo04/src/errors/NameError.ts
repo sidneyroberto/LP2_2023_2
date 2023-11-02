@@ -1,5 +1,5 @@
 export class NameError extends Error {
   constructor() {
-    super('Name must contain at least 5 characteres')
+    super('Name must contain at least 5 characters')
   }
 }
