@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1699496160191" clover="3.2.0">
+  <project timestamp="1699496160191" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="1" coveredconditionals="1" methods="10" coveredmethods="10" elements="27" coveredelements="27" complexity="0" loc="16" ncloc="16" packages="1" files="2" classes="2"/>
+    <file name="Queue.ts" path="C:\Users\sidne\Workspaces\LP2_2023_2\exemplo05\src\structures\Queue.ts">
+      <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="5" coveredmethods="5"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="9" count="6" type="stmt"/>
+      <line num="13" count="4" type="cond" truecount="1" falsecount="0"/>
+      <line num="14" count="3" type="stmt"/>
+      <line num="15" count="3" type="stmt"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="27" count="3" type="stmt"/>
+    </file>
+    <file name="Stack.ts" path="C:\Users\sidne\Workspaces\LP2_2023_2\exemplo05\src\structures\Stack.ts">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="10" count="6" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="18" count="2" type="stmt"/>
+      <line num="22" count="3" type="stmt"/>
+    </file>
+  </project>
+</coverage>
